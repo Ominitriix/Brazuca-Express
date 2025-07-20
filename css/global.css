@@ -1,0 +1,13 @@
+@import url("main.css");
+/*Estilos à abaixo*/
+@import url("home.css");
+/* Arquivo "about.css" possui os estilos da seção about, complement e partnership por
+   possuirem codigos curtos */
+@import url("unity.css");
+@import url("pole.css");
+@import url("footer.css");
+@import url("pages.css");
+
+/* Carregando por último os icones */
+@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css");
+@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css");

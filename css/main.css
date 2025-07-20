@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body.sr .logo,
+body.sr .input-slide,
+body.sr .navbar-social li,
+body.sr .home-title-show,
+body.sr .title,
+body.sr .prg,
+body.sr .line-vert-slide,
+body.sr .img-slide,
+body.sr .img-slide-top,
+body.sr .flex-buttons {
+  visibility: hidden;
+}
+
+*,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg: #f8fbff;
+  --color-light: #484b4d;
+  --color-dark: #333537;
+  --border: #e9f2fe;
+  --color-primary: #2382ff;
+}
+
+body {
+  background-color: var(--bg);
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -1.5px;
+  color: var(--color-dark);
+}
+
+p,
+input,
+a,
+label,
+button,
+label,
+li {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  transition: background-color 300ms ease;
+}
+
+button {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+a,
+i {
+  display: inline-flex;
+  transition: color 300ms ease;
+}
+
+p a {
+  color: var(--color-primary);
+}
+
+hr {
+  border: 0;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  background-color: var(--border);
+  padding: 0.2rem 1rem;
+  width: 250px;
+  height: 2.2rem;
+}
+
+.input-area button {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: var(--color-primary);
+  display: grid;
+  place-content: center;
+  color: var(--bg);
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.flex-buttons button {
+  padding: 0.3rem 1.5rem;
+  background-color: var(--color-primary);
+  /* color: var(--bg); */
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.flex-buttons button:not(.button-events) {
+  color: var(--bg);
+}
+
+.flex-buttons button.button-events {
+  background-color: transparent;
+}
+
+.flex-buttons button.button-events:hover {
+  text-decoration: underline;
+}

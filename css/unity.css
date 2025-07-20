@@ -1,0 +1,69 @@
+#about {
+  padding: 0 20%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#about .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+}
+
+#about .container img {
+  height: 350px;
+  margin-left: 1rem;
+}
+
+#about .container figcaption h1,
+#about .container figcaption p {
+  max-width: 90%;
+}
+
+#about .container figcaption h1 {
+  font-size: 2em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+#about .container figcaption hr {
+  width: 80px;
+  height: 6px;
+  background-color: var(--color-primary);
+}
+
+#about .container figcaption p {
+  line-height: 1.5;
+}
+
+#about .container figcaption .flex-buttons {
+  justify-content: start;
+}
+
+#complement {
+  display: flex;
+  gap: 2rem;
+  padding: 5% 20%;
+  background-color: var(--border);
+}
+
+#complement figure {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+#complement figure img {
+  height: 130px;
+  display: flex;
+}
+
+#complement figure figcaption h3 {
+  font-size: 1.4em;
+}
+
+#complement figure figcaption p {
+  font-size: 0.9em;
+}

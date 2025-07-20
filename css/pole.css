@@ -1,0 +1,52 @@
+#pole {
+  padding: 1rem;
+  padding: 0 20%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#pole .container {
+  display: flex;
+  align-items: end;
+  gap: 5%;
+}
+
+#pole .container img {
+  height: 400px;
+}
+
+#pole .container figcaption h1 {
+  font-size: 2em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+#pole .container figcaption hr {
+  width: 80px;
+  height: 6px;
+  background-color: var(--color-primary);
+}
+
+#pole .container figcaption p {
+  line-height: 1.5;
+  max-width: 75%;
+  margin-bottom: 1rem;
+}
+
+#pole .container figcaption .flex-input label {
+  font-size: 0.9em;
+}
+
+#pole .container .search-pole {
+  display: grid;
+  place-content: center;
+  border: 2px dashed var(--border);
+  width: 400px;
+  height: 200px;
+  margin-top: 2rem;
+}
+
+#pole .container .search-pole p {
+  color: var(--color-primary);
+}
